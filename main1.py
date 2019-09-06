@@ -13,18 +13,18 @@ arcade.start_render()
 
 # Draw the smiley face:
 # (x,y,radius,color)
-arcade.draw_circle_filled(0, 0, 100, open_color.yellow_3)
+arcade.draw_circle_filled(400, 300, 100, open_color.yellow_3)
 # (x,y,radius,color,border_thickness)
-arcade.draw_circle_outline(0, 0, 100, open_color.black,4)
+arcade.draw_circle_outline(400, 300, 100, open_color.black,4)
 
 #(x,y,width,height,color)
-arcade.draw_ellipse_filled(0,0,15,25,open_color.black)
-arcade.draw_ellipse_filled(0,0,15,25,open_color.black)
-arcade.draw_circle_filled(0,0,3,open_color.gray_2)
-arcade.draw_circle_filled(0,0,3,open_color.gray_2)
+arcade.draw_ellipse_filled(440,320,25,40,open_color.black)
+arcade.draw_ellipse_filled(360,320,25,40,open_color.black)
+arcade.draw_circle_filled(443,325,3,open_color.gray_2)
+arcade.draw_circle_filled(363,325,3,open_color.gray_2)
 
 #(x,y,width,height,color,start_degrees,end_degrees,border_thickness)
-arcade.draw_arc_outline(0,0,60,50,open_color.black,190,350,4)
+arcade.draw_arc_outline(400,300,60,50,open_color.black,190,350,4)
 
 
 
